@@ -93,18 +93,18 @@ Partial Class Form1
         Me.Label6.Font = New System.Drawing.Font("Times New Roman", 25.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label6.Location = New System.Drawing.Point(526, 409)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(204, 49)
+        Me.Label6.Size = New System.Drawing.Size(242, 49)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Mechanics"
+        Me.Label6.Text = "Astrophysics"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.BackColor = System.Drawing.Color.DimGray
+        Me.BackColor = System.Drawing.Color.Firebrick
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(856, 520)
+        Me.ClientSize = New System.Drawing.Size(880, 530)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.SolidStateLbl)
         Me.Controls.Add(Me.Label4)

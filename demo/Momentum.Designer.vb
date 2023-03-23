@@ -38,7 +38,7 @@ Partial Class Momentum
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(126, 248)
+        Me.TextBox2.Location = New System.Drawing.Point(146, 328)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(125, 31)
         Me.TextBox2.TabIndex = 7
@@ -46,7 +46,7 @@ Partial Class Momentum
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(28, 251)
+        Me.Label2.Location = New System.Drawing.Point(48, 331)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(82, 25)
         Me.Label2.TabIndex = 6
@@ -54,7 +54,7 @@ Partial Class Momentum
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(126, 178)
+        Me.TextBox1.Location = New System.Drawing.Point(146, 269)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(125, 31)
         Me.TextBox1.TabIndex = 5
@@ -62,7 +62,7 @@ Partial Class Momentum
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(28, 178)
+        Me.Label3.Location = New System.Drawing.Point(48, 269)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(67, 25)
         Me.Label3.TabIndex = 4
@@ -70,7 +70,7 @@ Partial Class Momentum
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(560, 302)
+        Me.TextBox3.Location = New System.Drawing.Point(511, 303)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(125, 31)
         Me.TextBox3.TabIndex = 9
@@ -78,7 +78,7 @@ Partial Class Momentum
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(424, 302)
+        Me.Label4.Location = New System.Drawing.Point(393, 301)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(120, 25)
         Me.Label4.TabIndex = 8
@@ -95,29 +95,30 @@ Partial Class Momentum
         '
         'ComboBox1
         '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"kg", "g", "mg"})
-        Me.ComboBox1.Location = New System.Drawing.Point(268, 175)
+        Me.ComboBox1.Location = New System.Drawing.Point(288, 266)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(49, 33)
+        Me.ComboBox1.Size = New System.Drawing.Size(72, 33)
         Me.ComboBox1.TabIndex = 11
         '
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"m/s", "km/hr"})
-        Me.ComboBox2.Location = New System.Drawing.Point(268, 246)
+        Me.ComboBox2.Location = New System.Drawing.Point(288, 326)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(49, 33)
+        Me.ComboBox2.Size = New System.Drawing.Size(72, 33)
         Me.ComboBox2.TabIndex = 13
         '
         'ComboBox3
         '
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"kg m/s", "kg km/hr", "g km/hr", "g m/s"})
-        Me.ComboBox3.Location = New System.Drawing.Point(702, 302)
+        Me.ComboBox3.Location = New System.Drawing.Point(655, 303)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(49, 33)
+        Me.ComboBox3.Size = New System.Drawing.Size(94, 33)
         Me.ComboBox3.TabIndex = 14
         '
         'Label1

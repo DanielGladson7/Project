@@ -30,7 +30,7 @@ Partial Class Solid_State
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(66, 72)
+        Me.Button1.Location = New System.Drawing.Point(355, 198)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(203, 45)
         Me.Button1.TabIndex = 0
@@ -39,7 +39,7 @@ Partial Class Solid_State
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(90, 204)
+        Me.Button2.Location = New System.Drawing.Point(92, 159)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(117, 45)
         Me.Button2.TabIndex = 1
@@ -48,7 +48,7 @@ Partial Class Solid_State
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(531, 83)
+        Me.Button3.Location = New System.Drawing.Point(92, 322)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(117, 45)
         Me.Button3.TabIndex = 2
@@ -57,7 +57,7 @@ Partial Class Solid_State
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(399, 228)
+        Me.Button4.Location = New System.Drawing.Point(92, 246)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(117, 45)
         Me.Button4.TabIndex = 3
